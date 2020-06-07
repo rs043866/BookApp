@@ -12,6 +12,9 @@ import com.example.bookhub.R
 import com.example.bookhub.database.BookEntity
 import com.squareup.picasso.Picasso
 
+/*
+    Adapter class
+ */
 class FavouriteRecyclerAdapter(val context: Context, private val bookList: List<BookEntity>) : RecyclerView.Adapter<FavouriteRecyclerAdapter.FavouriteViewHolder>() {
 
 
@@ -41,6 +44,9 @@ class FavouriteRecyclerAdapter(val context: Context, private val bookList: List<
         
     }
 
+    /*
+       View Holder class
+     */
 
     class FavouriteViewHolder(view: View): RecyclerView.ViewHolder(view){
         val txtBookName : TextView = view.findViewById(R.id.txtFavBookTitle)
