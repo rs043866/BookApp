@@ -34,8 +34,6 @@ class ProfileFragment : Fragment() {
             startActivity(intent)
             activity?.finish()
         }
-
-
         return view
     }
 
