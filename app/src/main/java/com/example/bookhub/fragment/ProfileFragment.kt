@@ -14,9 +14,9 @@ import com.example.bookhub.acitvity.MainActivity
 
 class ProfileFragment : Fragment() {
 
-    lateinit var etUserName : EditText
-    lateinit var etPassword : EditText
-    lateinit var btnSubmit : Button
+    private lateinit var etUserName : EditText
+    private lateinit var etPassword : EditText
+    private lateinit var btnSubmit : Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
